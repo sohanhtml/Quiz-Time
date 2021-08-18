@@ -1,19 +1,18 @@
 <html>
 
 <body>
-  <div id="div11">
-    <center>
-      <br><br><br><br>
-      <h1>QUIZ TIME</h1>
-    </center>
-    <center>
-      <h2>BLUE ORGANISMS</h2>
-    </center>
-  </div>
+<div id="div11">
+  <center>
+<br><br><br><br>
+    <h1>QUIZ TIME</h1>
+  </center>
+  <center>
+    <h2>BLUE ORGANISMS</h2>
+  </center>
+</div>
   <h3>
-    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   </h3>
-
   <div id="div1">
     <h4>Q1. Blue organisms are _____________</h4>
     <p id="r1"></p>
@@ -26,9 +25,8 @@
     <br><br><br>
     <p1 onclick="rightone()">Rare</p1>
   </div>
-
   <h5>
-    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   </h5>
 
   <div id="div2">
@@ -43,9 +41,8 @@
     <br><br><br>
     <p5 onclick="wrongtwo()">Golden Macaw</p5>
   </div>
-
   <h5>
-    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   </h5>
 
   <div id="div3">
@@ -60,9 +57,8 @@
     <br><br><br>
     <p12 onclick="wrongthree()">India</p12>
   </div>
-
   <h5>
-    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   </h5>
 
   <div id="div4">
@@ -77,9 +73,8 @@
     <br><br><br>
     <p16 onclick="wrongfour()">Because the earth is blue in colour </p16>
   </div>
-
   <h5>
-    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   </h5>
 
   <div id="div5">
@@ -94,9 +89,8 @@
     <br><br><br>
     <p20 onclick="wrongfive()">Rats</p20>
   </div>
-
   <h5>
-    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   </h5>
 
   <div id="div6">
@@ -111,9 +105,8 @@
     <br><br><br>
     <p24 onclick="wrongsix()">Scavengers</p24>
   </div>
-
   <h5>
-    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   </h5>
 
   <div id="div7">
@@ -128,9 +121,8 @@
     <br><br><br>
     <p28 onclick="wrongsev()">150yrs</p28>
   </div>
-
   <h5>
-    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   </h5>
 
   <div id="div8">
@@ -145,9 +137,8 @@
     <br><br><br>
     <p32 onclick="wrongeit()">10500</p32>
   </div>
-
   <h5>
-    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   </h5>
 
   <div id="div9">
@@ -162,12 +153,11 @@
     <br><br><br>
     <p36 onclick="rightnine()">Blue Tang fish</p36>
   </div>
-
   <h5>
-    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   </h5>
 
-  <div id="div10">
+  <div   id="div10">
     <h4>Q10. By which method do "Dory" reproduce.</h4>
     <p id="w10"></p>
     <p id="r10"></p>
@@ -179,30 +169,29 @@
     <br><br><br>
     <p40 onclick="wrongten()">Vegetative propagation</p40>
   </div>
-
   <h5>
-    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   </h5>
 
   <p id="score">0</p>
-  <p id="out"> / 10</p>
+  <p id="out"> / 10</p><p41 onclick="reloadPage()">Try Again !</p41>
 </body>
 
 </html>
 
 <body style="background : #6A5ACD">
-  
   <style>
-    #div11 {
+
+#div11{
       background-image: url(blue1.png);
       opacity: 2.0;
-      width: 1580px;
+      width: 1400px;
       height: 650px;
       margin-left: -7px;
       margin-top: -7px;
-      border: 4px solid black;
-      box-shadow: 90px 90px 90px 0 #5603D3;
-    }
+      border : 4px solid black;
+      box-shadow: 90px 90px 90px 0  #5603D3;
+}
 
     h1 {
       color: #fff;
@@ -218,19 +207,19 @@
       animation: glow 1s ease-in-out infinite alternate;
     }
 
-    @-webkit-keyframes glow {
-      from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #02FCFB, 0 0 50px #02FCFB, 0 0 60px #02FCFB, 0 0 70px #02FCFB;
-      }
-
-      to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-      }
-    }
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #02FCFB, 0 0 50px #02FCFB, 0 0 60px #02FCFB, 0 0 70px #02FCFB;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
 
     h3 {
       color: white;
-      margin-top: 300px;
+      margin-top: 300px; 
       font-size: 25px;
     }
 
@@ -287,24 +276,38 @@
       border-style: solid;
       border-radius: 15px;
       color: white;
-      font-size: 60px;
+      font-size: 50px;
       margin-left: 50px;
+     font-family: cursive;
     }
 
     p36 {
       border-style: solid;
       border-radius: 15px;
       color: white;
-      font-size: 55px;
+      font-size: 50px;
       margin-left: 50px;
+      font-family: cursive;
     }
 
     p34 {
       border-style: solid;
       border-radius: 15px;
       color: white;
-      font-size: 50px;
+      font-size: 45px;
       margin-left: 50px;
+      font-family: cursive;
+    }
+
+
+    p41{
+      border-style: solid;
+      border-radius: 15px;
+      color: white;
+      font-size: 45px;
+      margin-left: 1100px;
+     margin-bottom: 100px;
+      font-family: cursive;
     }
 
     #div1,
@@ -318,7 +321,7 @@
     #div9,
     #div10 {
       background-color: #6A5ACD;
-      width: 1240px;
+      width: 1390px;
       height: 500px;
       margin-left: 0px;
     }
@@ -326,13 +329,13 @@
     #score {
       color: white;
       font-size: 60px;
-      margin-left: 700px;
+      margin-left: 580px;
     }
 
     #out {
       color: white;
       font-size: 60px;
-      margin-left: 750px;
+      margin-left: 650px;
       margin-top: -130px;
     }
 
@@ -377,6 +380,7 @@
       margin-left: 100px;
 
     }
+
   </style>
 
   <script>
@@ -396,6 +400,7 @@ return function() {return counter +=1;}
    document.querySelector('p4').style.marginLeft = '-2000px';
    document.getElementById("r1").innerHTML = "Wrong Answer !!! <br><br> Ans : Rare";
  }
+
   function rightone(){
    document.querySelector('p1').style.backgroundColor = 'green';
    document.querySelector('#div1').style.backgroundColor = 'green';
@@ -406,6 +411,7 @@ return function() {return counter +=1;}
     document.getElementById("r").innerHTML = "Right Answer !!!";
     document.getElementById("score").innerHTML = count();
  }
+
   function wrongtwo(){
    document.querySelector('#div2').style.backgroundColor = 'red';
    document.querySelector('p5').style.marginLeft = '-20000px';
@@ -414,6 +420,7 @@ return function() {return counter +=1;}
    document.querySelector('p8').style.marginLeft = '-20000px';
    document.getElementById("w2").innerHTML = "Wrong Answer !!! <br><br> Ans : Hyacinth Macaw";
  }
+
   function righttwo(){
    document.querySelector('#div2').style.backgroundColor = 'green';
    document.querySelector('p5').style.marginLeft = '-20000px';
@@ -423,6 +430,7 @@ return function() {return counter +=1;}
     document.getElementById("r2").innerHTML = "Right Answer !!!";
     document.getElementById("score").innerHTML = count();
  }
+
    function wrongthree(){
    document.querySelector('#div3').style.backgroundColor = 'red';
    document.querySelector('p9').style.marginLeft = '-20000px';
@@ -431,6 +439,7 @@ return function() {return counter +=1;}
    document.querySelector('p12').style.marginLeft = '-20000px';
    document.getElementById("w3").innerHTML = "Wrong Answer !!! <br><br> Ans : South America";
  }
+
   function rightthree(){
    document.querySelector('#div3').style.backgroundColor = 'green';
    document.querySelector('p9').style.marginLeft = '-20000px';
@@ -440,6 +449,7 @@ return function() {return counter +=1;}
     document.getElementById("r3").innerHTML = "Right Answer !!!";
     document.getElementById("score").innerHTML = count();
  }
+
     function wrongfour(){
    document.querySelector('#div4').style.backgroundColor = 'red';
    document.querySelector('p13').style.marginLeft = '-20000px';
@@ -448,6 +458,7 @@ return function() {return counter +=1;}
    document.querySelector('p16').style.marginLeft = '-20000px';
    document.getElementById("w4").innerHTML = "Wrong Answer !!! <br><br> Ans : Reflection of tiny pockets of air";
  }
+
   function rightfour(){
    document.querySelector('#div4').style.backgroundColor = 'green';
    document.querySelector('p13').style.marginLeft = '-20000px';
@@ -457,6 +468,7 @@ return function() {return counter +=1;}
     document.getElementById("r4").innerHTML = "Right Answer !!!";
     document.getElementById("score").innerHTML = count();
  }
+
      function wrongfive(){
    document.querySelector('#div5').style.backgroundColor = 'red';
    document.querySelector('p17').style.marginLeft = '-20000px';
@@ -465,6 +477,7 @@ return function() {return counter +=1;}
    document.querySelector('p20').style.marginLeft = '-20000px';
    document.getElementById("w5").innerHTML = "Wrong Answer !!! <br><br> Ans : Nuts";
  }
+
   function rightfive(){
    document.querySelector('#div5').style.backgroundColor = 'green';
    document.querySelector('p17').style.marginLeft = '-20000px';
@@ -474,6 +487,7 @@ return function() {return counter +=1;}
     document.getElementById("r5").innerHTML = "Right Answer !!!";
     document.getElementById("score").innerHTML = count();
  }
+
       function wrongsix(){
    document.querySelector('#div6').style.backgroundColor = 'red';
    document.querySelector('p21').style.marginLeft = '-20000px';
@@ -482,6 +496,7 @@ return function() {return counter +=1;}
    document.querySelector('p24').style.marginLeft = '-20000px';
    document.getElementById("w6").innerHTML = "Wrong Answer !!! <br><br> Ans : Omnivores";
  }
+
   function rightsix(){
    document.querySelector('#div6').style.backgroundColor = 'green';
    document.querySelector('p21').style.marginLeft = '-20000px';
@@ -491,6 +506,7 @@ return function() {return counter +=1;}
     document.getElementById("r6").innerHTML = "Right Answer !!!";
     document.getElementById("score").innerHTML = count();
  }
+
        function wrongsev(){
    document.querySelector('#div7').style.backgroundColor = 'red';
    document.querySelector('p25').style.marginLeft = '-20000px';
@@ -499,6 +515,7 @@ return function() {return counter +=1;}
    document.querySelector('p28').style.marginLeft = '-20000px';
    document.getElementById("w7").innerHTML = "Wrong Answer !!! <br><br> Ans : 50yrs";
  }
+
   function rightsev(){
    document.querySelector('#div7').style.backgroundColor = 'green';
    document.querySelector('p25').style.marginLeft = '-20000px';
@@ -508,6 +525,7 @@ return function() {return counter +=1;}
     document.getElementById("r7").innerHTML = "Right Answer !!!";
     document.getElementById("score").innerHTML = count();
  }
+
         function wrongeit(){
    document.querySelector('#div8').style.backgroundColor = 'red';
    document.querySelector('p29').style.marginLeft = '-20000px';
@@ -516,6 +534,7 @@ return function() {return counter +=1;}
    document.querySelector('p32').style.marginLeft = '-20000px';
    document.getElementById("w8").innerHTML = "Wrong Answer !!! <br><br> Ans : 6500";
  }
+
   function righteit(){
    document.querySelector('#div8').style.backgroundColor = 'green';
    document.querySelector('p29').style.marginLeft = '-20000px';
@@ -525,6 +544,7 @@ return function() {return counter +=1;}
     document.getElementById("r8").innerHTML = "Right Answer !!!";
     document.getElementById("score").innerHTML = count();
  }
+
         function wrongnine(){
    document.querySelector('#div9').style.backgroundColor = 'red';
    document.querySelector('p33').style.marginLeft = '-20000px';
@@ -533,6 +553,7 @@ return function() {return counter +=1;}
    document.querySelector('p36').style.marginLeft = '-20000px';
    document.getElementById("w9").innerHTML = "Wrong Answer !!! <br><br> Ans : Blue Tang fishs";
  }
+
   function rightnine(){
    document.querySelector('#div9').style.backgroundColor = 'green';
    document.querySelector('p33').style.marginLeft = '-20000px';
@@ -542,6 +563,7 @@ return function() {return counter +=1;}
     document.getElementById("r9").innerHTML = "Right Answer !!!";
     document.getElementById("score").innerHTML = count();
  }
+
          function wrongten(){
    document.querySelector('#div10').style.backgroundColor = 'red';
    document.querySelector('p37').style.marginLeft = '-20000px';
@@ -550,6 +572,7 @@ return function() {return counter +=1;}
    document.querySelector('p40').style.marginLeft = '-20000px';
    document.getElementById("w10").innerHTML = "Wrong Answer !!! <br><br> Ans : Broadcast spawning ";
  }
+
   function rightten(){
    document.querySelector('#div10').style.backgroundColor = 'green';
    document.querySelector('p37').style.marginLeft = '-20000px';
@@ -559,4 +582,9 @@ return function() {return counter +=1;}
     document.getElementById("r10").innerHTML = "Right Answer !!!";
     document.getElementById("score").innerHTML = count();
  }
+
+function reloadPage(){
+       location.reload();
+      window.scrollTo(0, 0);
+}
   </script>
