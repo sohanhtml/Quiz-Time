@@ -182,6 +182,63 @@
 <body style="background : #6A5ACD">
   <style>
   
+  @keyframes blink{
+0% {
+ background : violet;
+}
+15% {
+ background : indigo;
+}
+30% {
+ background : blue;
+}
+42% {
+ background : green;
+}
+58% {
+ background : yellow;
+}
+70% {
+ background : orange;
+}
+85% {
+ background : red;
+}
+100% {
+ background : violet;
+}
+}
+@-webkit-keyframes blink{
+0% {
+ background : violet;
+}
+15% {
+ background : indigo;
+}
+30% {
+ background : blue;
+}
+42% {
+ background : green;
+}
+58% {
+ background : yellow;
+}
+70% {
+ background : orange;
+}
+85% {
+ background : red;
+}
+100% {
+ background : violet;
+}
+}
+h1{
+ animation : blink 10s infinite;
+-webkit-animation : blink 10s infinite;
+}
+
 @media screen and (max-width : 700px){
 html{
   font-size : 55%;
